@@ -10,10 +10,45 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 
 
+/* font-family: 'Offside', cursive; */
+/* font-family: 'Barlow', sans-serif; */
 
 /*  */
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+header * {
+    color: #fff;
+}
+
+.logo {
+    /* TODO: fonts not working */
+    font-size: 20px;
+    width: 20%;
 
 
+    font-family: 'Offside', cursive';
+}
 
+body {
+    background-image: url(./assets/assets/header-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 60%;
+}
 
