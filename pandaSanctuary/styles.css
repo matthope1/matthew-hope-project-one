@@ -14,7 +14,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /* font-family: 'Barlow', sans-serif; */
 
 /*  */
-
 .container {
     width: 90%;
     margin: 0 auto;
@@ -26,12 +25,10 @@ header * {
 }
 
 .logo {
-    /* TODO: fonts not working */
     font-size: 20px;
-    width: 20%;
-
-
-    font-family: 'Offside', cursive';
+    width: 60%;
+    font-family: 'Offside', cursive;
+    float: left;
 }
 
 body {
@@ -42,6 +39,8 @@ body {
 
 li {
     list-style: none;
+    float: left;
+    margin-right: 10px;
 }
 
 a {
@@ -49,6 +48,7 @@ a {
 }
 
 nav {
-    width: 60%;
+    width: 40%;
+    float: left;
 }
 
