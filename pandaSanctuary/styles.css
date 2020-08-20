@@ -36,19 +36,16 @@ nav {
     font-size: 20px;
 }
 
-.logo,
-a {
-    font-family: 'Offside', cursive;
-}
-
 .logo {
     width: 10%;
+    font-family: 'Offside', cursive;
 }
 
 header {
     background-image: url(./assets/assets/header-image.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 60vh;
 }
 
@@ -60,6 +57,11 @@ li {
 
 a {
     text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+    margin: 0;
 }
 
 nav {
@@ -82,4 +84,16 @@ header h2 {
     margin-bottom: 10px;
 }
 
+.friends {
+    height: 30vh;
+    background-color: #D6F1E4;
+    padding-top: 70px;
+}
 
+
+.friends h2 {
+    color: #116500; 
+    font-size: 42px;
+    font-family: 'Offside',cursive;
+    text-align: center;
+}
