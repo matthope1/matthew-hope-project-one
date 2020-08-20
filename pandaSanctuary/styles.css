@@ -14,6 +14,11 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /* font-family: 'Barlow', sans-serif; */
 
 /*  */
+
+html {
+    font-size: 62.5%;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -24,11 +29,16 @@ header * {
     color: #fff;
 }
 
-.logo {
-    font-size: 20px;
-    width: 60%;
-    font-family: 'Offside', cursive;
+.logo,
+nav {
     float: left;
+    font-size: 20px;
+}
+
+
+.logo {
+    width: 10%;
+    font-family: 'Offside', cursive;
 }
 
 body {
@@ -39,16 +49,32 @@ body {
 
 li {
     list-style: none;
-    float: left;
-    margin-right: 10px;
+    float: right;
+    margin-left: 25px;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Offside', cursive; 
 }
 
 nav {
-    width: 40%;
+    width: 90%;
+}
+
+h2 {
+    font-family: 'Offside', cursive;
+    font-size: 42px;
+    width: 45%;
     float: left;
 }
 
+.social-media-icons {
+    float: right;
+    margin-top: 70px;
+}
+
+
+.fab {
+    display: block;
+}
