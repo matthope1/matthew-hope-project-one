@@ -35,10 +35,13 @@ nav {
     font-size: 20px;
 }
 
+.logo,
+a {
+    font-family: 'Offside', cursive;
+}
 
 .logo {
     width: 10%;
-    font-family: 'Offside', cursive;
 }
 
 body {
@@ -55,7 +58,6 @@ li {
 
 a {
     text-decoration: none;
-    font-family: 'Offside', cursive; 
 }
 
 nav {
@@ -63,9 +65,9 @@ nav {
 }
 
 h2 {
-    font-family: 'Offside', cursive;
+    font-family: 'Barlow', sans-serif;
     font-size: 42px;
-    width: 45%;
+    width: 40%;
     float: left;
 }
 
@@ -74,7 +76,6 @@ h2 {
     margin-top: 70px;
 }
 
-
-.fab {
-    display: block;
+.icons {
+    margin-bottom: 10px;
 }
