@@ -218,6 +218,7 @@ button {
 }
 
 h3 {
+    margin-top: 15px;
     margin-bottom: 0;
     font-family: 'Offside', cursive;
     font-size: 27px;
@@ -226,21 +227,78 @@ h3 {
 
 footer {
     background-color: #213C28;
+    color: white;
+    padding-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer button {
+    background-color: #2C2D2C;
+    color: white;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Offside', cursive;
+}
+
+.copyright {
+    background-color: #2C2D2C;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.copyright {
+    margin: 0;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 
+footer div {
+    border: solid;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    text-align: right;
+}
+
+footer a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    text-align: right;
+}
 
 
+.footer-form {
+    width: 50%;
+}
+
+.footer-contact {
+    width: 25%;
+    float: left;
+}
 
 
-
-
-
-
-
-
-
-
+.footer-nav {
+    width: 20%;
+    float: left;
+}
 
 
 
