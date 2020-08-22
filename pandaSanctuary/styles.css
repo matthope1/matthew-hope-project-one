@@ -55,6 +55,9 @@ header {
 
 li {
     list-style: none;
+}
+
+header li {
     float: right;
     padding: 0;
     margin-right: 25px;
@@ -69,6 +72,8 @@ a {
 p {
     line-height: 28px;
     letter-spacing: 0.2px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
     margin: 15px 0;
 }
 
@@ -82,8 +87,8 @@ nav {
 }
 
 header h2 {
+    font-size: 63px;
     font-family: 'Barlow', sans-serif;
-    font-size: 42px;
     width: 40%;
     float: left;
 }
@@ -98,17 +103,21 @@ header h2 {
 }
 
 .friends {
-    height: 90vh;
+    height: 100vh;
     padding-top: 70px;
     background: url(./assets/assets/image-5@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+main h2 {
+    font-size: 42px;
+}
+
 
 .friends h2 {
     color: #116500; 
-    font-size: 42px;
+    /* font-size: 42px; */
     font-family: 'Offside',cursive;
     /* text-align: center; */
 }
@@ -139,6 +148,10 @@ header h2 {
     margin-bottom: 60px; */
 /* } */
 
+.gallery li {
+    margin-right: 25px;
+}
+
 .friends li:nth-of-type(3) {
     margin-right: 0;
 }
@@ -149,10 +162,6 @@ header h2 {
     margin-left: 5%;
 }
 
-.side-text p {
-    font-size: 20px;
-    font-family: 'Barlow', sans-serif;
-}
 
 button {
     width: 150px;
@@ -174,7 +183,72 @@ button {
     color: #116500;
 }
 
-
-.box {
+.grid {
     background-color: #213C28;
 }
+
+.box {
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.box h2 {
+    font-family: 'Offside', cursive;
+}
+
+.grid .container {
+    margin-top: 12%;
+}
+
+
+.link-icons {
+    padding: 60px 0;
+    background: url(./assets/assets/image-5@2x.png);
+}
+
+.link-icons ul {
+    margin: 0;
+}
+
+.link-icons li {
+    float: left;
+    text-align: center;
+    width: calc(100%/3)
+}
+
+h3 {
+    margin-bottom: 0;
+    font-family: 'Offside', cursive;
+    font-size: 27px;
+    color: #116500;
+}
+
+footer {
+    background-color: #213C28;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
