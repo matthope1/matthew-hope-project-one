@@ -97,6 +97,18 @@ header h2 {
     font-weight: 300;
 }
 
+.ham-menu {
+    display: none;
+    margin-top: 10px;
+}
+
+.ham-line {
+    width: 50px;
+    height: 4px;
+    background-color: white;
+    margin: 10px 0;
+}
+
 .social-media-icons {
     float: right;
     margin-top: 30px;
@@ -147,11 +159,6 @@ main h2 {
     width: 25%;
     float: left;
 }
-/* 
-.gallery ul {
-    padding: 0;
-    margin-bottom: 60px; */
-/* } */
 
 .gallery li {
     margin-right: 25px;
@@ -399,6 +406,13 @@ footer a {
     }
 
 
+    .social-media-icons {
+        display: none;
+    }
+
+    
+
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -445,6 +459,20 @@ footer a {
         display: block;
         margin: 0 auto;
     }
+
+    header h2 {
+        font-size: 45px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+        float: right;
+    }
+
 
 }
 
