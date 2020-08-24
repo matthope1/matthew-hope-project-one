@@ -108,7 +108,8 @@ header h2 {
 }
 
 .friends {
-    height: 100vh;
+    /* height: 100vh; */
+    height: 1000px;
     padding-top: 70px;
     background: url(./assets/assets/image-5@2x.png);
     background-repeat: no-repeat;
@@ -193,9 +194,29 @@ button {
 
 .box {
     color: white;
-    width: 50%;
-    float: left;
+    /* width: 50%; */
+    /* float: left; */
+    width: 100%;
 }
+
+
+/* .box-one,
+.box-two {
+    width: 100%;
+} */
+
+.box-one img,
+.box-two div {
+    float: right;
+    width: 50%;
+}
+
+.box-two img,
+.box-one div {
+    float: left;
+    width: 50%;
+}
+
 
 .box h2 {
     font-family: 'Offside', cursive;
@@ -237,6 +258,7 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 13px;
 }
 
 footer button {
@@ -300,12 +322,39 @@ footer a {
 }
 
 
+/* media queries */
 
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    .box {
+        float: none;
+        width: 100%;
+    }
+    .box-one,
+    .box-two {
+        width: 100%;
+    }
 
+    .box-one img,
+    .box-two div {
+        float: none;
+        width: 100%;
+    }
 
+    .box-two img,
+    .box-one div {
+        float: none;
+        width: 100%;
+    }
 
+}
 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
 
+}
 
+/* Landscape phones and down */
+@media (max-width: 482px) {
 
-
+}
