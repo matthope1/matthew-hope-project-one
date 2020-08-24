@@ -208,13 +208,23 @@ button {
 .box-one img,
 .box-two div {
     float: right;
-    width: 50%;
 }
 
 .box-two img,
 .box-one div {
     float: left;
+}
+
+.box-one img,
+.box-two img {
     width: 50%;
+}
+
+.box-one div,
+.box-two div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 
 
@@ -223,7 +233,7 @@ button {
 }
 
 .grid .container {
-    margin-top: 12%;
+    margin-top: 8%;
 }
 
 
@@ -326,31 +336,115 @@ footer a {
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
-    .box {
-        float: none;
-        width: 100%;
-    }
-    .box-one,
-    .box-two {
-        width: 100%;
-    }
 
     .box-one img,
     .box-two div {
         float: none;
+    }
+
+    .box-one img,
+    .box-two img {
         width: 100%;
+    }
+
+    .box-one div,
+    .box-two div {
+        width: 95%;
+
     }
 
     .box-two img,
     .box-one div {
         float: none;
-        width: 100%;
     }
+
+    .grid .container {
+        padding-bottom: 75px;
+    }
+
+    .grid button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .grid h2 {
+        text-align: center;
+    }
+
+    .footer-form {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer-form p {
+        margin: 10px 0;
+        font-size: 22px;
+    }
+
+    .footer-form h4 {
+        font-size: 30px;
+    }
+    
+
+    .footer-form input {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-contact,
+    .footer-nav {
+        width: 50%;
+    }
+
 
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    .link-icons ul {
+        margin: 0 auto;
+    }
+    .link-icons li {
+        float: none;
+        margin: 0 auto 20px auto;
+
+    }
+    
+    .friends {
+        height: 1650px;
+    }
+
+    .friends li {
+        width: calc((100%  - 30px) / 2);
+        margin: 0;
+    }
+
+    .friends li:first-child {
+        margin-right: 30px;
+    }
+
+    .friends li:last-child {
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .side-img {
+        display: none;
+    }
+    
+    .side-text {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    .side-text button {
+        display: block;
+        margin: 0 auto;
+    }
 
 }
 
